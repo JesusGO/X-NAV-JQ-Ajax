@@ -8,16 +8,6 @@ $(document).ready(function(){
 		  });
 	});
 
-	$("#botonGoogle").click(function() {
-		$.ajax({
-			url: "https://www.google.es",
-			headers:{
-					'Access-Control-Allow-Origin':
-			}
-			}).done(function( data ) {
-		  	$("#textoGoogle").text(data);
-		  });
-	});
 
 
 });
